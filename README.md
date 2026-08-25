@@ -16,7 +16,9 @@ Dans Claude Code :
 
 ## Plugins disponibles
 
-Aucun plugin publié pour le moment.
+| Plugin | Description |
+|---|---|
+| [`collegia-prof`](plugins/collegia-prof/) | Préparation de début d'année pour les professeurs du secondaire (FWB) : analyse des référentiels FWB et programmes SeGEC, matrice de référence par cours, document d'intention pédagogique, planification annuelle, séquences et supports. |
 
 ## Structure du dépôt
 

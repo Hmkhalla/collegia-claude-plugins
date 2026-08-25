@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "collegia-prof",
+  "description": "Préparation de début d'année pour les professeurs du secondaire (FWB) : analyse des référentiels FWB et programmes SeGEC, matrice de référence par cours, document d'intention pédagogique, planification annuelle, séquences et supports de cours.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Hassan Mkhallati",
+    "email": "hassan.mkhallati@excellentium.be"
+  },
+  "homepage": "https://github.com/Hmkhalla/collegia-claude-plugins",
+  "repository": "https://github.com/Hmkhalla/collegia-claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "enseignement",
+    "secondaire",
+    "fwb",
+    "segec",
+    "referentiels",
+    "preparation-de-cours",
+    "planification"
+  ]
+}
