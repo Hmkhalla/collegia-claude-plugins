@@ -31,12 +31,17 @@ Ne pas deviner l'orientation ni le volume horaire : ils changent les attendus ap
 Via `corpus` : identifier le référentiel FWB et le programme SeGEC applicables. Vérifier leur état
 dans l'INDEX.
 
-**Si une source manque du corpus, s'arrêter là et le dire.** Proposer au prof de la fournir. Ne
-jamais produire une matrice « de mémoire » : une matrice non sourcée est exactement le document que
-ce plugin existe pour éviter, et elle contaminerait tout ce qui en découle.
+**Si le référentiel manque, s'arrêter là et le dire.** Il est la source bloquante : sans attendus,
+il n'y a rien à quoi se conformer. Ne jamais produire une matrice « de mémoire » — elle
+contaminerait tout ce qui en découle.
+
+**Si seul le programme SeGEC manque, continuer.** C'est une source complétante (voir `methode`) : la
+matrice se construit sur les attendus prescrits, et signale que la déclinaison du réseau n'est pas
+disponible. C'est l'état normal du corpus aujourd'hui, pas une anomalie à contourner.
 
 Annoncer explicitement au prof sur quoi la matrice va être construite :
-« Référentiel FWB histoire 3e (2022, markdown) + programme SeGEC 3e (2023, PDF p.12-64). »
+« Compétences terminales histoire, 2e et 3e degrés (1999, PDF). Programme SeGEC non disponible :
+la progression proposée sera à valider. »
 
 ## Étape 3 — Extraire et citer
 
@@ -90,7 +95,8 @@ Prescrit vs disponible · écart constaté
 Pour une reprise ; décisif si l'année vient de basculer dans le tronc commun
 
 ## Points ouverts
-Ce qui reste à trancher par le prof, et ce qui manque au corpus
+Ce qui reste à trancher par le prof, et ce qui manque au corpus — dont l'absence éventuelle du
+programme SeGEC et ce qu'elle laisse ouvert
 ```
 
 Terminer par le décompte de traçabilité : nombre d'éléments prescrits, nombre de `[PROPOSITION]`,

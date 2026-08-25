@@ -5,30 +5,31 @@ nom du fichier se déduisent de la source elle-même.
 
 ## Arborescence
 
+Organisée par **régime**, parce que c'est ainsi que les documents existent : un référentiel du tronc
+commun couvre M1 à S3 d'un bloc, une compétence terminale couvre les 2e et 3e degrés. Il n'existe
+pas de document « par année d'étude », et en forcer un dans le chemin serait une invention.
+
 ```
 references/
-  INDEX.md                    # la carte — seul fichier lu systématiquement
-  conventions.md              # ce fichier
-  fwb/<discipline>/<niveau>/
-      fwb-<discipline>-<niveau>-<aaaa>.pdf       # source officielle, conservée
-      md/                                        # découpage dérivé, quand il existe
-          00-sommaire.md
-          <nn>-<titre-de-section>.md
-  segec/<discipline>/<niveau>/
-      segec-<discipline>-<niveau>-<aaaa>.pdf
-      md/
-  college/
-      <document>-<aaaa>.pdf
-  _exemple-format/            # démonstration du format — contenu FICTIF, ne jamais citer
+  INDEX.md                          # la carte — seul fichier lu systématiquement
+  conventions.md                    # ce fichier
+  fwb/
+    tronc-commun/                   # référentiels 2022 — 1re en 2026-2027
+    socles-de-competences/          # 2e en 2026-2027, dernière année
+    competences-terminales/         # transition, 2e et 3e degrés — 3e à 6e
+    brochures/                      # compléments transversaux, non prescriptifs
+  segec/                            # programmes du réseau libre — à fournir
+  college/                          # documents propres au collège — à fournir
+  _exemple-format/                  # démonstration du format — contenu FICTIF, ne jamais citer
 ```
 
-- **`<discipline>`** en minuscules sans accent ni espace : `histoire`, `francais`, `sciences`,
-  `math`, `langues-modernes`, `education-physique`.
-- **`<niveau>`** : `1`, `2`, `3` pour le tronc commun ; `d2`, `d3` pour les deuxième et troisième
-  degrés. Reprendre le découpage du document : si un référentiel couvre 1-2-3 d'un bloc, utiliser
-  `1-3`.
-- **`<aaaa>`** : année de publication du document, pas l'année scolaire d'usage. C'est elle qui
-  distingue une version d'une autre lors d'une réforme.
+**Les noms de fichiers officiels sont conservés tels quels** (`2022_REF_Hist-geo-FHGES.pdf`,
+`CT_HGT_Histoire.pdf`). Ne pas les renommer : c'est ce qui permet au professeur de retrouver le
+document sur enseignement.be et de vérifier une citation. L'INDEX porte l'intitulé lisible et
+l'année de publication.
+
+Pour une source qui n'a pas de nom officiel — un document du collège — nommer
+`<document>-<aaaa>.<ext>`, en minuscules sans accent.
 
 ## Identifiants d'attendu et citations
 
@@ -72,9 +73,13 @@ sortie acceptable ; un faux numéro ne l'est pas.
 
 ## Mise à jour lors d'une réforme
 
-1. Ajouter le nouveau document **à côté** de l'ancien, avec sa propre année de publication.
-2. Ne pas supprimer l'ancien : il documente ce que les préparations existantes suivaient, et permet
-   de répondre à « qu'est-ce qui change pour moi cette année ? ».
-3. Mettre à jour `INDEX.md` : le nouveau document devient la source active, l'ancien passe en
-   `archive` dans la colonne État.
-4. Le découpage markdown de l'ancien document n'a pas besoin d'être maintenu.
+Le tronc commun se déploie une année d'étude par rentrée : le corpus doit porter **simultanément**
+l'ancien et le nouveau régime pendant toute la transition. Ce n'est pas un état provisoire à nettoyer.
+
+1. Ajouter le nouveau document **à côté** de l'ancien, dans le dossier de son régime.
+2. Ne jamais supprimer l'ancien tant qu'une année d'étude en relève encore. Même après, le conserver
+   permet de répondre à « qu'est-ce qui change pour moi cette année ? ».
+3. Mettre à jour le tableau « Quel régime pour quelle année » d'`INDEX.md` — c'est lui qui fait
+   autorité, et il doit avancer d'une ligne à chaque rentrée.
+4. Mettre à jour le calendrier de déploiement dans `../../methode/SKILL.md`, qui porte la même
+   information sous forme de règle.

@@ -68,30 +68,54 @@ entre les deux doit être **signalée au prof**, jamais arbitrée en silence.
 Un attendu cité dans un document produit se cite depuis le **référentiel**. La progression et le
 découpage se citent depuis le **programme**.
 
-## 4. Les deux régimes
+### Source bloquante et source complétante
 
-Deux régimes cohabitent dans le même établissement. **Le régime se déduit de l'année d'étude**, et
-se détermine avant toute analyse.
+Les deux n'ont pas le même statut quand elles manquent au corpus.
 
-| Année d'étude | Régime | Vocabulaire |
+| Source | Statut | Si absente |
 |---|---|---|
-| Tronc commun | Référentiels du tronc commun (Pacte pour un Enseignement d'excellence) | **attendus**, par visée et thématique |
-| Au-delà du tronc commun | Programmes classiques | **UAA**, avec processus Connaître / Appliquer / Transférer |
+| Référentiel FWB (ou Socles, ou compétences terminales, selon le régime) | **Bloquante** | Arrêter. Aucune production : sans attendus, il n'y a rien à quoi se conformer. |
+| Programme SeGEC | **Complétante** | Continuer, en travaillant sur les seuls attendus prescrits — et le signaler dans le document produit. |
 
-Ne jamais transposer le vocabulaire d'un régime à l'autre : parler d'« attendus » en 5e ou d'« UAA »
-en 2e signale immédiatement au prof que la source n'a pas été lue.
+Travailler sans le programme du réseau reste utile : les attendus, eux, sont prescrits et suffisent
+à cadrer une année. Ce qui manque est leur **déclinaison** — progression conseillée, découpage
+horaire, démarches propres au réseau libre.
+
+Conséquence sur la traçabilité : sans programme SeGEC, toute progression ou tout découpage proposé
+est une `[PROPOSITION]`, jamais un `[SeGEC p.…]`. Le dire en tête du document plutôt que de laisser
+le professeur le découvrir : « Construit sur le référentiel seul ; le programme SeGEC n'est pas
+encore au corpus, la progression proposée relève donc de choix pédagogiques à valider. »
+
+## 4. Les trois régimes
+
+Le régime se déduit de l'**année d'étude**, et se détermine avant toute analyse. Le tronc commun
+remplace les Socles de compétences au fur et à mesure de son déploiement, **une année d'étude par
+rentrée**.
+
+| Régime | Document de référence | Vocabulaire |
+|---|---|---|
+| Tronc commun | Référentiels du tronc commun (2022) | **attendus**, par visée et thématique |
+| Socles de compétences | Socles de compétences | **compétences** et paliers |
+| Transition, 2e et 3e degrés | Compétences terminales et savoirs requis (humanités générales) | **compétences terminales**, formation commune et options de base |
+
+Ne jamais transposer le vocabulaire d'un régime à l'autre : parler d'« attendus » en 5e signale
+immédiatement au professeur que la source n'a pas été lue.
 
 **Une année qui vient de basculer dans le tronc commun** appelle une vigilance particulière : les
-programmes SeGEC ont été réécrits, les préparations antérieures ne sont plus alignées, et il faut
-repartir des attendus plutôt que d'adapter l'existant. Une année en régime stable permet au
-contraire de partir des préparations des années précédentes.
+programmes de réseau ont été réécrits, les préparations antérieures ne sont plus alignées, et il
+faut repartir des attendus plutôt que d'adapter l'existant.
 
-> **État du déploiement — à mettre à jour à chaque extension du tronc commun.**
-> Au 25 août 2026 : tronc commun en **1re, 2e et 3e** ; régime classique en **4e, 5e et 6e**.
-> La 3e vient de basculer.
+> **Calendrier de déploiement — source : enseignement.be, consulté le 25 août 2026.**
+> Rentrée 2026 : la 1re secondaire rejoint le tronc commun.
+> Rentrée 2027 : la 2e. Rentrée 2028 : la 3e.
+> Les Socles de compétences ne s'appliquent plus à aucune année d'étude à partir de 2027-2028.
+>
+> Pour **2026-2027** : 1re = tronc commun · 2e = Socles de compétences · 3e à 6e = compétences
+> terminales. Le tableau année par année est dans `../corpus/references/INDEX.md`.
 
-Voir `references/contexte-fwb.md` pour la structure des degrés et filières, les certifications, les
-instances, les aménagements raisonnables et le vocabulaire scolaire belge.
+**Le collège ne pratique que l'enseignement général.** Les référentiels de l'enseignement de
+qualification (humanités professionnelles et techniques) ne sont pas dans le corpus. Une demande
+portant sur une option qualifiante sort du périmètre : le dire.
 
 ## 5. Posture
 
